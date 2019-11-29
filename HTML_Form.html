@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HTML FORM </title>
+		<link rel="stylesheet" href="style.css">
+		<style>
+				form{
+					width:500px;
+					background:silver;
+					padding:20px;
+					border:2px solid black;
+					margin:0 auto;
+					}
+					
+				input[type='text'], input[type='password'],select{
+						width:200px;
+						height:20px;
+						border-bottom:1px solid;}	
+						
+				textarea{
+						resize:none;
+						border:2px solid black;
+						}		
+						
+				input[type='submit']{
+						background:Blue;
+						color:white;
+						border:2px solid black;
+						width:200px;
+						height:25px;
+						}
+
+				input[type='text']:focus, input[type='password']:focus,select:focus{
+									background-color:lightblue;}
+									
+				input[type='text']:hover, input[type='password']:hover,select:hover{
+									border-color:brown;}					
+				   
+		</style>
+	</head>
+		
+		<body>
+				<form>
+				<h2>Login Form</h2><hr>
+				<table>
+				<tr>
+					<td><label for="user">Username</label></td>
+					<td><input type="text" id="user" name="user" ></td>
+				</tr>
+				<tr>
+					<td><label for="pwd">Password</label></td>
+					<td><input type="password" id="pwd" name="password" ><br><br></td>
+				
+				</tr>
+				
+				<tr>
+					<td><label >Gender</label></td>
+					<td><input type="radio" name="gender" Value="male"> Male <br> <input type="radio" name="gender" value="female"> Female<br><br></td>
+				
+				</tr>
+				
+				<tr>
+					<td><label>Skills</label></td>
+					<td><input type="Checkbox" name="html" value="html"> HTML <br> <input type="Checkbox" name="css" value="css"> CSS <br> <input type="Checkbox" name="php" value="php"> PHP </td>
+				
+				</tr>
+				
+				<tr>
+					<td><label >Select your Country</label></td>
+					<td>
+						<select id="country" name="Select your country" >
+								<option value="IND">India</option>
+								<option value="UK">united Kingdom</option>   
+								<option value="USA">United states of America</option>
+								<option value="CN">Canada</option>
+						</select>
+					</td>
+				
+				</tr>
+				
+				<tr>
+					<td for="comments">comments</td>
+					<td><textarea rows="10" cols="50"></textarea><td>
+				</tr>
+				
+				<tr>
+					<td> </td>
+					<td>
+						<input  type="submit" align="center" value="Click to submit" name="submit_form">
+					</td>
+				</table>
+				</form>
+		
+		</body>
+</html>		
