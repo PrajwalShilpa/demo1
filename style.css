@@ -1,0 +1,23 @@
+.main-class{
+			background-color:brown;
+}
+#sec_para{color:Blue;background-color:pink;}
+
+
+
+a:link{
+		color:red}
+		
+a:visited{color:blue}	
+a:hover{color:orange}	
+a:active{color:green}	
+b:link{
+		color:red}
+		
+b:visited{color:blue}	
+b:hover{color:orange}	
+b:active{color:green}
+p:link{
+		color:red}
+		
+p:visited{color:blue}	
